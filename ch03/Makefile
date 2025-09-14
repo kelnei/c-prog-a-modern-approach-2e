@@ -1,7 +1,9 @@
 CFLAGS = -O -Wall -W -pedantic -ansi -std=c99
+SOURCES = $(wildcard *.c)
+TARGETS = $(basename $(SOURCES))
 
-all: pp1 pp2 pp3 pp4 pp5 pp6
+all: $(TARGETS)
 
 clean:
-	rm -f pp1 pp2 pp3 pp4 pp5 pp6
+	rm -f $(TARGETS)
 
