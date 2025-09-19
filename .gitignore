@@ -1,3 +1,4 @@
+*.o
 pp?
 pp1?
 upc
@@ -12,3 +13,4 @@ maxmin
 remind
 planet
 sum
+justify
