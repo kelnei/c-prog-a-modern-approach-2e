@@ -2,8 +2,6 @@ CFLAGS = -O -Wall -W -pedantic -ansi -std=c99
 
 all: inventory pp1 pp5 pp6
 
-inventory: inventory.c
-
 inventory:  inventory.o readline.o
 	cc $(CFLAGS) -o inventory inventory.o readline.o
 
