@@ -1,4 +1,4 @@
-CFLAGS = -g -O -Wall -W -pedantic -ansi -std=c99
+CFLAGS = -O -Wall -W -pedantic -ansi -std=c99
 
 all: stackclient pp1 pp2 pp3 pp4 pp5 pp6 pp7
 
