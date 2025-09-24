@@ -1,6 +1,11 @@
 *.o
+*.rle
+*.dat
 pp?
 pp1?
+pp??
+pp1?a
+pp1?b
 upc
 repdigit
 reverse
@@ -20,3 +25,9 @@ tabulate
 stackclient
 xor
 viewmemory
+canopen
+fcopy
+fcat
+compress_file
+uncompress_file
+
