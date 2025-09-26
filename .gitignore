@@ -30,4 +30,6 @@ fcopy
 fcat
 compress_file
 uncompress_file
-
+tnumconv
+trand
+datetime
